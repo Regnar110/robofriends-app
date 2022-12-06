@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
+class App extends React.Component { // class component- używamy paczki REACT i rozszerzamy APP o zawartość obiektu Component z paczki react
+  render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,7 @@ function App() {
       </header>
     </div>
   );
+  }
 }
 
 export default App;
